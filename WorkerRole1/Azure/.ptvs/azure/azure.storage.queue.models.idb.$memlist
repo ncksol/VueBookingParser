@@ -1,0 +1,11 @@
+xml_unescape
+QueueMessageFormat
+b64encode
+_validate_message_type_bytes
+Queue
+_validate_message_type_text
+QueueMessage
+_ERROR_MESSAGE_NOT_BASE64
+xml_escape
+QueuePermissions
+b64decode

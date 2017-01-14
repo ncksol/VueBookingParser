@@ -1,0 +1,16 @@
+configuration
+exceptions
+__version__
+Deserializer
+service_client
+paging
+Configuration
+http_logger
+Serializer
+__all__
+authentication
+ServiceClient
+pipeline
+version
+serialization
+msrest_version

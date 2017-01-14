@@ -1,0 +1,15 @@
+OperatingSystemTypes
+ContainerServiceOchestratorTypes
+CachingTypes
+VirtualMachineScaleSetSkuScaleType
+StatusLevelTypes
+SettingNames
+PassNames
+ProtocolTypes
+VirtualMachineSizeTypes
+ContainerServiceVMSizeTypes
+UpgradeMode
+ComponentNames
+DiskCreateOptionTypes
+InstanceViewTypes
+Enum

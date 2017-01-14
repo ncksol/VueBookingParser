@@ -1,0 +1,11 @@
+requests
+msrest_version
+raise_with_traceback
+NoOptionError
+platform
+Configuration
+configparser
+ClientRetryPolicy
+ClientConnection
+ClientRedirectPolicy
+ClientProxies

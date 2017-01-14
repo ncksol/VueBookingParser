@@ -1,0 +1,7 @@
+win32api
+win32ctypes
+error
+compat
+TestWin32API
+sys
+unittest

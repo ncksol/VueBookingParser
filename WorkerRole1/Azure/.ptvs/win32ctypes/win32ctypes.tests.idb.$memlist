@@ -1,0 +1,4 @@
+compat
+test_win32api
+test_win32cred
+__author__

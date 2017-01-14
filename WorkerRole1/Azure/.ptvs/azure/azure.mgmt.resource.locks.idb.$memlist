@@ -1,0 +1,8 @@
+VERSION
+ManagementLockClient
+__all__
+management_lock_client
+operations
+version
+models
+__version__

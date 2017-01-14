@@ -1,0 +1,13 @@
+CredRead
+_make_blob
+ctypes
+__all__
+CredWrite
+CRED_PERSIST_ENTERPRISE
+CRED_TYPE_GENERIC
+_PyBytes_FromStringAndSize
+CredDelete
+_win32cred
+_GetACP
+is_unicode
+unicode

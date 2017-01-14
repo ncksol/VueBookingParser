@@ -1,0 +1,10 @@
+AzureConfiguration
+Serializer
+VERSION
+SubscriptionClient
+Deserializer
+TenantsOperations
+SubscriptionClientConfiguration
+models
+SubscriptionsOperations
+ServiceClient

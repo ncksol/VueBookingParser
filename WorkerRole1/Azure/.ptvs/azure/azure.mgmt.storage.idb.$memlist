@@ -1,0 +1,8 @@
+StorageManagementClient
+storage_management_client
+__all__
+operations
+VERSION
+version
+models
+__version__

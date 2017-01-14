@@ -1,0 +1,6 @@
+CloudError
+VirtualNetworksOperations
+ClientRawResponse
+uuid
+models
+AzureOperationPoller

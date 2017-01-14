@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "VueBookingParser", "VueBookingParser\VueBookingParser.ccproj", "{94543B25-1F65-4AA7-95C7-AF22A088669E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ParserRole", "WorkerRole1\ParserRole.pyproj", "{3425DB1F-BC1F-4C81-A7EC-CCFE2CB7007F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94543B25-1F65-4AA7-95C7-AF22A088669E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94543B25-1F65-4AA7-95C7-AF22A088669E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94543B25-1F65-4AA7-95C7-AF22A088669E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94543B25-1F65-4AA7-95C7-AF22A088669E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3425DB1F-BC1F-4C81-A7EC-CCFE2CB7007F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3425DB1F-BC1F-4C81-A7EC-CCFE2CB7007F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3425DB1F-BC1F-4C81-A7EC-CCFE2CB7007F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3425DB1F-BC1F-4C81-A7EC-CCFE2CB7007F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

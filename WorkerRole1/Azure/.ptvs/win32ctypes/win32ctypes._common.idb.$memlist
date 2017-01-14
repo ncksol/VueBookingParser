@@ -1,0 +1,16 @@
+POINTER
+function_factory
+PY3
+py_object
+pythonapi
+ctypes
+LPBYTE
+absolute_import
+kernel32
+c_void_p
+UINT
+LONG_PTR
+_PyBytes_FromStringAndSize
+PPy_UNICODE
+_GetACP
+BYTE

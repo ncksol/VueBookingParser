@@ -1,0 +1,12 @@
+WinVaultKeyring
+pywintypes
+functools
+ExceptionRaisedContext
+PasswordDeleteError
+win32cred
+properties
+escape
+KeyringBackend
+unicode_str
+has_pywin32
+OldPywinError

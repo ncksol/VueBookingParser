@@ -1,0 +1,8 @@
+ComputeManagementClient
+VERSION
+__all__
+compute_management_client
+operations
+version
+models
+__version__

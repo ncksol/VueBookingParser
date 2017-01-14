@@ -1,0 +1,14 @@
+ProvidersOperations
+Deserializer
+VERSION
+DeploymentOperations
+TagsOperations
+ResourcesOperations
+AzureConfiguration
+DeploymentsOperations
+Serializer
+ResourceManagementClient
+models
+ResourceManagementClientConfiguration
+ServiceClient
+ResourceGroupsOperations

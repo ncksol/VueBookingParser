@@ -1,0 +1,7 @@
+oauth
+requests
+OAuthTokenAuthentication
+BasicAuthentication
+HTTPBasicAuth
+BasicTokenAuthentication
+Authentication

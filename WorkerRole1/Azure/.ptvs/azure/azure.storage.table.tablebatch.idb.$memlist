@@ -1,0 +1,11 @@
+TableBatch
+_insert_entity
+_merge_entity
+_ERROR_TOO_MANY_ENTITIES_IN_BATCH
+_update_entity
+_insert_or_merge_entity
+_delete_entity
+_insert_or_replace_entity
+_ERROR_DUPLICATE_ROW_KEY_IN_BATCH
+AzureBatchValidationError
+_ERROR_INCORRECT_PARTITION_KEY_IN_BATCH

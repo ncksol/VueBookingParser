@@ -1,0 +1,8 @@
+VERSION
+__all__
+subscription_client
+operations
+version
+models
+SubscriptionClient
+__version__

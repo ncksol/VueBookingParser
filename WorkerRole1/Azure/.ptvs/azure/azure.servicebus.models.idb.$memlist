@@ -1,0 +1,16 @@
+AuthorizationRule
+AzureServiceBusPeekLockError
+_ERROR_MESSAGE_NOT_PEEK_LOCKED_ON_DELETE
+EventHub
+Topic
+AzureServiceBusResourceNotFound
+WindowsAzureData
+AzureException
+datetime
+_ERROR_MESSAGE_NOT_PEEK_LOCKED_ON_RENEW_LOCK
+_ERROR_MESSAGE_NOT_PEEK_LOCKED_ON_UNLOCK
+Subscription
+Queue
+sys
+Rule
+Message

@@ -1,0 +1,16 @@
+sys
+url_quote
+BytesIO
+sleep
+PKCS7
+_upload_blob_chunks
+_get_blob_encryptor_and_padder
+BlobBlock
+_encode_base64
+_get_data_bytes_only
+_PageBlobChunkUploader
+_AppendBlobChunkUploader
+_BlobChunkUploader
+AzureHttpError
+threading
+_BlockBlobChunkUploader

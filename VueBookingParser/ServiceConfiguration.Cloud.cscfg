@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="VueBookingParser" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ParserRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=vuebookingparser;AccountKey=$(_vuebookingparser.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="d8ffbe4c-4518-4810-80f1-5840f7ba981d" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="nick" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHASv5uUTNCvQQruqLxMw40wDQYJKoZIhvcNAQEBBQAEggEAjiPJ1G8uOalJHUjAWwCJ8TdbHBZh/ylzdb8x9aNyuain5fLxAoNcDrCwPNSYF3XgYUl3yFoSdBhER6jemwbpPWKsisU9qoO10ADxs+fZPL0XW+wfIBZcKetrWoZvsrWI5IxpFu0UFp5spPgXjlwnBUhN5vXebIj4scpB7ksNEUJYBOcyTJwYZY5Bojk0HeFIoVgcN5c9jnjSNu3k7VOWMz7W6LMkjSIfhiR+IyXrxGQr0zFk04FDPxuWvLzURwdVhA2p0dgd4chLFpziAymIvpQXmfrt4x5ehW8BgcLbdjzVAF1rVcoexq/oluDJedGeLjZ+xuS00v7oJyz8kq4+TTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECFGhD43kjW91gBAV0ZbTBtRZSsfE8cA+b/m1" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-11-19T23:59:59.0000000+00:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="89A196AB174E801529F0C9329036A40573D976A8" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

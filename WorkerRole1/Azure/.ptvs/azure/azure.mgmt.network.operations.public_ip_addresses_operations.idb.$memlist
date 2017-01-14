@@ -1,0 +1,6 @@
+CloudError
+PublicIPAddressesOperations
+ClientRawResponse
+uuid
+models
+AzureOperationPoller

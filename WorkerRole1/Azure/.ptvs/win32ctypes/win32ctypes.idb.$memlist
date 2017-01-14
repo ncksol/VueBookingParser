@@ -1,0 +1,10 @@
+_winerrors
+pywintypes
+_util
+win32api
+_win32api
+_common
+win32cred
+compat
+_win32cred
+tests

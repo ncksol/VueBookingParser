@@ -1,0 +1,11 @@
+AzureHttpError
+Table
+TablePermissions
+AzureBatchValidationError
+TablePayloadFormat
+AzureBatchOperationError
+_ERROR_ATTRIBUTE_MISSING
+EdmType
+AzureException
+Entity
+EntityProperty

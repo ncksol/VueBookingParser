@@ -1,0 +1,8 @@
+version
+__all__
+operations
+VERSION
+ResourceManagementClient
+models
+resource_management_client
+__version__

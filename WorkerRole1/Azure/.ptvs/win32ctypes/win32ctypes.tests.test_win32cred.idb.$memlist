@@ -1,0 +1,12 @@
+compat
+win32cred
+absolute_import
+CredWrite
+CRED_TYPE_GENERIC
+ERROR_NOT_FOUND
+error
+CredRead
+CredDelete
+TestCred
+CRED_PERSIST_ENTERPRISE
+unittest

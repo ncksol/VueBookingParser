@@ -1,0 +1,8 @@
+SerializationError
+ClientRequestError
+TokenExpiredError
+HttpOperationError
+ClientException
+CloudError
+AuthenticationError
+DeserializationError

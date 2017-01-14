@@ -1,0 +1,10 @@
+AzureConfiguration
+Deserializer
+VERSION
+PolicyDefinitionsOperations
+PolicyAssignmentsOperations
+PolicyClientConfiguration
+PolicyClient
+Serializer
+models
+ServiceClient

@@ -1,0 +1,10 @@
+AzureConfiguration
+Serializer
+VERSION
+StorageManagementClientConfiguration
+Deserializer
+StorageAccountsOperations
+StorageManagementClient
+models
+ServiceClient
+UsageOperations

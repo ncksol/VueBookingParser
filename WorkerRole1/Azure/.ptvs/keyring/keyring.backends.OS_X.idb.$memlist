@@ -1,0 +1,7 @@
+properties
+api
+KeyringBackend
+platform
+PasswordDeleteError
+Keyring
+PasswordSetError

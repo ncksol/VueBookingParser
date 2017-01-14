@@ -1,0 +1,5 @@
+Configuration
+raise_with_traceback
+NoOptionError
+AzureConfiguration
+msrestazure_version

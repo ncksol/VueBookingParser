@@ -1,0 +1,8 @@
+NetworkManagementClient
+VERSION
+network_management_client
+__all__
+operations
+version
+models
+__version__

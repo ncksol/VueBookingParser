@@ -1,0 +1,10 @@
+EnumResourceLanguages
+EnumResourceTypes
+EnumResourceNames
+LOAD_LIBRARY_AS_DATAFILE
+absolute_import
+_win32api
+_PyBytes_FromStringAndSize
+FreeLibrary
+LoadLibraryEx
+LoadResource

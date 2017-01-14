@@ -1,0 +1,13 @@
+ProvidersOperations
+tags_operations
+resource_groups_operations
+DeploymentOperations
+TagsOperations
+ResourceGroupsOperations
+DeploymentsOperations
+deployment_operations
+__all__
+resources_operations
+providers_operations
+deployments_operations
+ResourcesOperations

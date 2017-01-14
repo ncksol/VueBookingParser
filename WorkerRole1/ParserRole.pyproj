@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3425db1f-bc1f-4c81-a7ec-ccfe2cb7007f</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <ProjectTypeGuids>{725071e1-96ae-4405-9303-1ba64eff6ebd};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>worker.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>ParserRole</Name>
+    <RootNamespace>WorkerRole1</RootNamespace>
+    <InterpreterId>{d0236daa-9831-45fe-87ee-a699eff20394}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bs4_parser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="worker.py" />
+    <Content Include="bin\ConfigureCloudService.ps1" />
+    <Content Include="bin\LaunchWorker.ps1" />
+    <Content Include="bin\PipInstaller.ps1" />
+    <Content Include="bin\PrepPython.ps1" />
+    <Content Include="bin\ps.cmd" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Readme.mht">
+      <SubType>WebBrowser</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="Azure\">
+      <Id>{d0236daa-9831-45fe-87ee-a699eff20394}</Id>
+      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>Azure (Python 64-bit 3.5)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Worker.targets" />
+</Project>
